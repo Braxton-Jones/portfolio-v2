@@ -1,0 +1,22 @@
+@import 'variables.scss';
+.aboutme {
+    width: 100%;
+    h2 {
+        font-size: calc(2rem + 10px);
+        color: $secondary;
+    }
+
+    .aboutme_wrapper {
+        max-width: 700px;
+    }
+
+    p {
+        font-size: calc(1rem + 18px);
+        font-weight: 500;
+
+        span {
+            color: $primary;
+            font-weight: 400;
+        }
+    }
+}

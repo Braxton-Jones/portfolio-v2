@@ -1,0 +1,23 @@
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    img {
+        max-width: 50px;
+        filter: invert(100%);
+    }
+
+    .location_wrapper {
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 45px;
+        overflow: hidden;
+        span {
+            color: rgb(148, 147, 147);
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+}

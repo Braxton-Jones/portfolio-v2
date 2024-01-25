@@ -1,0 +1,47 @@
+@import "variables";
+.accents {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+
+    .accent {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        button {
+            align-self: flex-end;
+            margin-left: auto;
+            border: none;
+            padding: 10px 20px;
+            font-size: calc(1rem + 2px);
+            font-family: 'Syne', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-radius: 10px;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                cursor: pointer;
+                background-color: $primary;
+                padding: 10px 40px;
+            }
+        }
+
+        .accent_wrapper {
+            // Styles for .accent_wrapper
+            font-size: calc(1rem + 4px);
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        flex-direction: column;
+    }
+}

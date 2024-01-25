@@ -1,0 +1,11 @@
+$text: hsl(0, 0%, 96%);
+$background: hsl(0, 0%, 7%);
+$primary: hsla(250, 46%, 68%, 1);
+$secondary: hsla(240, 2%, 31%, 0.2);
+$accent: hsl(282, 57%, 40%);
+
+.bento {
+    background-color: $secondary;
+    padding: 20px;
+    border-radius: 20px;
+}
