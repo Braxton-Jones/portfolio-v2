@@ -9,7 +9,7 @@ export default function Hero() {
             <img src={headshot} alt='headshot of Braxton Jones' />
             <p className={styles.hero_copy}>
                 Braxton Jones is a full-stack web developer,{' '}
-                <span>crafting unique experiences for the web.</span>
+                <span>making unique experiences for the web.</span>
             </p>
         </section>
     )
