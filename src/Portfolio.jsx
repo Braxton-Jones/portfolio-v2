@@ -7,19 +7,9 @@ import Location from './components/Location'
 import Socials from './components/Socials'
 import projects from './data'
 import Accents from './components/Accents'
-import Modal from './components/Modal'
 import { useState } from 'react'
 import resume from './assets/BraxtonJonesResume.pdf'
 export default function Portfolio() {
-    const [isModalOpen, setModalOpen] = useState(false)
-    const openModal = async () => {
-        setModalOpen(true)
-    }
-
-    const closeModal = () => {
-        setModalOpen(false)
-    }
-
     return (
         <main>
             <section className={styles.appWrapper}>
@@ -45,7 +35,7 @@ export default function Portfolio() {
                     </div>
                 </section>
                 <section className={styles.section_two_point_five}>
-                    <Accents openModal={openModal} />
+                    <Accents/>
                 </section>
                 <section className={styles.section_three}>
                     <h2>Projects</h2>
@@ -59,14 +49,6 @@ export default function Portfolio() {
                         Sass + Framer Motion
                     </p>
                 </footer>
-                <Modal isOpen={isModalOpen} onClose={closeModal}>
-                    <div className={styles.moreDetails}>
-                        <div className={styles.moreDetailsContent}>
-                            <h1>Modal Content</h1>
-                            <p>Modal Content</p>
-                        </div>
-                    </div>
-                </Modal>
             </section>
         </main>
     )
