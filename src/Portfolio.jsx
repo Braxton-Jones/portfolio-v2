@@ -9,6 +9,7 @@ import projects from './data'
 import Accents from './components/Accents'
 import { useState } from 'react'
 import resume from './assets/BraxtonJonesResume.pdf'
+import Project from './components/Project'
 export default function Portfolio() {
     return (
         <main>
@@ -39,7 +40,11 @@ export default function Portfolio() {
                 </section>
                 <section className={styles.section_three}>
                     <h2>Projects</h2>
-                    <div className={styles.section_three_wrapper}></div>
+                    <div className={styles.section_three_wrapper}>
+                        {projects.map((project) => {
+                            return <Project key={project.id} project={project} />
+                        })}
+                    </div>
                 </section>
 
                 <footer className={styles.footer}>
