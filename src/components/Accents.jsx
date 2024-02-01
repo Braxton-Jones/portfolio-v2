@@ -5,8 +5,11 @@ const Accents = () => {
             <div className={`${styles.accent} bento`}>
                 <div className={styles.accent_wrapper}>
                     <h2>Need to know more?</h2>
-                    <p>I have a blog where I delve deeper into the processes behind creating my projects.
-                    Feel free to give it a look!</p>
+                    <p>
+                        I have a blog where I delve deeper into the processes
+                        behind creating my projects. Feel free to give it a
+                        look!
+                    </p>
                 </div>
                 <button>brx-blog</button>
             </div>
@@ -17,7 +20,6 @@ const Accents = () => {
                         <li>✨ Learning Next.js by building soloprojdev</li>
                         <li>✨ Reading through GSAP Docs</li>
                     </ul>
-                    
                 </div>
                 <button>more about solodev</button>
             </div>

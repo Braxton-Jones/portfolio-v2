@@ -10,16 +10,29 @@ import Accents from './components/Accents'
 import { useState } from 'react'
 import resume from './assets/BraxtonJonesResume.pdf'
 import Project from './components/Project'
+import { motion } from 'framer-motion'
 export default function Portfolio() {
     return (
         <main>
-            <section className={styles.appWrapper}>
-                <section className={styles.navbar}>
+            <motion.section
+                className={styles.appWrapper}
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                exit={{ opacity: 0 }}
+            >
+                <motion.section
+                    className={styles.navbar}
+                    initial={{ opacity: 0, y: -110 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 1 }}
+                    exit={{ opacity: 0 }}
+                >
                     <h1 className={styles.logo}>Braxton Jones.</h1>
                     <a href={resume} target='_blank' className={styles.resume}>
                         Resume / CV
                     </a>
-                </section>
+                </motion.section>
 
                 <section className={styles.section_one}>
                     <Hero />
@@ -28,6 +41,7 @@ export default function Portfolio() {
                         <Toolkit />
                     </div>
                 </section>
+
                 <section className={styles.section_two}>
                     <AboutMe />
                     <div className={styles.section_two_wrapper}>
@@ -35,26 +49,37 @@ export default function Portfolio() {
                         <Socials />
                     </div>
                 </section>
+
                 <section className={styles.section_two_point_five}>
-                    <Accents/>
+                    <Accents />
                 </section>
-                <section className={styles.section_three}>
+
+                <motion.section className={styles.section_three}>
                     <h2>Projects</h2>
                     <div className={styles.section_three_wrapper}>
                         {projects.map((project) => {
-                            return <Project key={project.id} project={project} />
+                            return (
+                                <Project key={project.id} project={project} />
+                            )
                         })}
                     </div>
-                </section>
+                    {/* <div>
+                    {projects.map((project) => {
+                            return (
+                                <Project key={project.id} project={project} />
+                            )
+                        })}
+                    </div> */}
+                </motion.section>
 
-                <footer className={styles.footer}>
+                <motion.footer className={styles.footer}>
                     <p>
-                        Sketched with love in a Leuchtturm1917 journal, made real
-                        in Visual Studio Code by yours truly. <br/> Made using React +
-                        Sass + Framer Motion
+                        Sketched with love in a Leuchtturm1917 journal, made
+                        real in Visual Studio Code by yours truly. <br /> Made
+                        using React + Sass + Framer Motion
                     </p>
-                </footer>
-            </section>
+                </motion.footer>
+            </motion.section>
         </main>
     )
 }
