@@ -2,17 +2,13 @@
 .accents {
     display: flex;
     flex-direction: row;
-    width: 100%;
     gap: 10px;
 
     @media (max-width: 1110px) {
         flex-direction: column;
-        height: fit-content;
     }
 
     .accent {
-        height: 100%;
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
