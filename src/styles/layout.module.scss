@@ -20,7 +20,7 @@ main {
         align-items: center;
         margin-inline: 2rem;
         max-width: 1200px;
-        gap: 30px;
+        gap: 2rem;
     }
 
     .navbar {
@@ -83,6 +83,7 @@ main {
 
     .section_one {
         display: flex;
+        height: auto;
         width: 100%;
         gap: 10px;
 
@@ -108,8 +109,8 @@ main {
     }
     .section_two {
         display: flex;
+        height: auto;
         flex-direction: row-reverse;
-
         gap: 10px;
 
         &_wrapper {
@@ -140,6 +141,7 @@ main {
 
     .section_two_point_five {
         display: flex;
+        height: auto;
     
 
         &_wrapper {
@@ -154,6 +156,8 @@ main {
     }
 
     .section_three {
+        height: auto;
+        width: 100%;
         margin: 2rem 0;
         h2 {
             font-size: 2.5rem;
