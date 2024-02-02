@@ -1,4 +1,5 @@
 import styles from './styles/layout.module.scss'
+import './styles/reset.scss'
 import Hero from './components/Hero'
 import Contact from './components/Contact'
 import Toolkit from './components/Toolkit'
