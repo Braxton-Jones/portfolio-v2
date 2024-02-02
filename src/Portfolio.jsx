@@ -14,12 +14,12 @@ import { motion } from 'framer-motion'
 export default function Portfolio() {
     return (
         <main>
-            <motion.section
+            <section
                 className={styles.appWrapper}
-                initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
-                exit={{ opacity: 0 }}
+                // initial={{ opacity: 0, y: 100 }}
+                // animate={{ opacity: 1, y: 0 }}
+                // transition={{ duration: 0.5, delay: 0.5 }}
+                // exit={{ opacity: 0 }}
             >
                 <section
                     className={styles.navbar}
@@ -79,7 +79,7 @@ export default function Portfolio() {
                         using React + Sass + Framer Motion
                     </p>
                 </motion.footer>
-            </motion.section>
+            </section>
         </main>
     )
 }
