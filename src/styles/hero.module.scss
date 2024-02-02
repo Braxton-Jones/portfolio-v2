@@ -9,11 +9,15 @@
     }
 
     .hero_copy {
-        margin-top: 20px;
-        font-size: calc(2rem + 8px);
+        font-size: calc(1.5vw + 20px);
         font-weight: 600;
         letter-spacing: 2px;
-        max-width: 700px;
+        max-width: 28ch;
+
+        @media screen and (max-width: 1110px) {
+            text-align: center;
+            
+        }
 
         span {
             color: rgb(148, 147, 147);
@@ -22,7 +26,6 @@
 
     @media screen and (max-width: 1110px) {
         flex-direction: column;
-        padding-right: 0;
         img {
             width: 200px;
         }
