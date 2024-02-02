@@ -1,11 +1,11 @@
 /*
   1. Use a more-intuitive box-sizing model.
 */
-// *,
-// *::before,
-// *::after {
-//     box-sizing: border-box;
-// }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 /*
     2. Remove default margin
   */
@@ -20,6 +20,7 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    height: fit-content;
 }
 /*
     5. Improve media defaults
@@ -56,10 +57,10 @@ h6 {
 /*
     8. Create a root stacking context
   */
-// #root,
-// #__next {
-//     isolation: isolate;
-// }
+#root,
+#__next {
+    isolation: isolate;
+}
 
 ol,
 ul {

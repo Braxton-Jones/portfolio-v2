@@ -15,9 +15,16 @@
         padding: 10px;
         border-radius: 10px;
         display: grid;
+        height: 100%;
         grid-template-columns: repeat(5, 1fr);
         justify-content: center;
-        gap: 10px 20px;
+        gap: 1rem .8rem;
         position: relative;
+
+        p{
+            img{
+                width: 100%;
+            }
+        }
     }
 }
