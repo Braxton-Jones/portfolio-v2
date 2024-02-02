@@ -8,18 +8,17 @@
 main {
     background-color: $background;
     color: $text;
-    min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
 
     .appWrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        margin-inline: 2rem;
         max-width: 1200px;
         gap: 30px;
     }
