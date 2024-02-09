@@ -9,14 +9,13 @@
     }
 
     .hero_copy {
-        font-size: calc(1.5vw + 20px);
+        font-size: calc(1vw + 20px);
         font-weight: 600;
         letter-spacing: 2px;
         max-width: 28ch;
 
         @media screen and (max-width: 1110px) {
             text-align: center;
-            
         }
 
         span {

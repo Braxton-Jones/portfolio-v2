@@ -67,11 +67,12 @@ const projects = [
             message: 'Awaiting API Approval',
             color: '#f3e926',
         },
-        blog_link: 'd',
+        blog_link: '',
     },
     {
         title: 'brx-blog',
-        description: "Personal blog built with Next.js and Sanity.io. Focused on learning and implementing a CMS. Plans to add more content!.",
+        description:
+            'Personal blog built with Next.js and Sanity.io. Focused on learning and implementing a CMS. Plans to add more content!.',
         image: '/projects/BrxBlog.png',
         live_site_link: null,
         github_link: null,

@@ -29,6 +29,11 @@
             padding: 0.5em 2rem;
             margin-top: 20px;
 
+            a {
+                text-decoration: none;
+                color: #1b1b1b;
+            }
+
             &:hover {
                 cursor: pointer;
                 background-color: $primary;
@@ -42,7 +47,6 @@
             h2 {
                 margin-bottom: 20px;
             }
-        
 
             ul {
                 display: flex;

@@ -6,21 +6,34 @@ const Accents = () => {
                 <div className={styles.accent_wrapper}>
                     <h2>Need to know more?</h2>
                     <p>
-                        I have a blog where I delve deeper into the processes
-                        behind creating my projects. Feel free to give it a
-                        look!
+                        If you're interested in learning more about my process,
+                        exploring the projects I'm currently working on, or just
+                        curious what I'm currently learning, be sure to visit my
+                        blog! It's a space where I talk about the "why & how"
+                        behind my projects and my software development journey
                     </p>
                 </div>
-                <button>brx-blog</button>
+                <button>
+                    <a href='https://brx-blog-braxton-jones.vercel.app/'>
+                        brx-blog
+                    </a>
+                </button>
             </div>
             <div className={`${styles.accent} bento`}>
                 <div className={styles.accent_wrapper}>
                     <h2>Currently working on.</h2>
                     <p>
-                        
+                        Currently I'm working on my new project, `Project Name`,
+                        a personal task management tool that integrates features
+                        inspired by popular gaming mechanics such as battle
+                        passes, loot boxes, and dynamic daily and weekly
+                        challenges, catering to individuals wanting an
+                        entertaining approach to productivity.
                     </p>
                 </div>
-                <button>more about solodev</button>
+                <button>
+                    <a href='#'>"Project Name"</a>
+                </button>
             </div>
         </div>
     )

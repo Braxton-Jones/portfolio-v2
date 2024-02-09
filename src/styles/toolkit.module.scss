@@ -16,11 +16,11 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         justify-content: center;
-        gap: 1rem .8rem;
+        gap: 1rem 0.8rem;
         position: relative;
 
-        p{
-            img{
+        p {
+            img {
                 width: 100%;
             }
         }
