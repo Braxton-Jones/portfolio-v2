@@ -23,8 +23,8 @@ const Accents = () => {
                 <div className={styles.accent_wrapper}>
                     <h2>Currently working on.</h2>
                     <p>
-                        Currently I'm working on my new project, `Project Name`,
-                        a personal task management tool that integrates features
+                        Currently I'm working on my new project, agilequest,
+                        a agile task management tool that integrates features
                         inspired by popular gaming mechanics such as battle
                         passes, loot boxes, and dynamic daily and weekly
                         challenges, catering to individuals wanting an
@@ -32,7 +32,7 @@ const Accents = () => {
                     </p>
                 </div>
                 <button>
-                    <a href='#'>"Project Name"</a>
+                    <a href='https://github.com/Braxton-Jones'>"Project Name"</a>
                 </button>
             </div>
         </div>
