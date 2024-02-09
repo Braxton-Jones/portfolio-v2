@@ -32,7 +32,7 @@ const Accents = () => {
                     </p>
                 </div>
                 <button>
-                    <a href='https://github.com/Braxton-Jones'>"Project Name"</a>
+                    <a href='https://github.com/Braxton-Jones'>My Repos</a>
                 </button>
             </div>
         </div>
