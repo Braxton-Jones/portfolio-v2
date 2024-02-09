@@ -15,7 +15,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
             ></motion.img>
             <p className={styles.hero_copy}>
-                Braxton Jones is a full-stack web developer,
+                Braxton Jones is a full-stack web developer,{" "}
                 <span>making unique experiences for the web.</span>
             </p>
         </section>

@@ -9,7 +9,7 @@ export default function AboutMe() {
                 <p>
                     As a full-stack web developer, I love immersive online
                     experiences. I find joy in creating innovative solutions
-                    that resonate with users.
+                    that resonate with users.{" "}
                     <span>
                         A blend of thoughtful design and a user-centric approach
                         is my guide for crafting compelling digital journeys.
