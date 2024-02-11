@@ -74,8 +74,8 @@ const projects = [
         description:
             'Personal blog built with Next.js and Sanity.io. Focused on learning and implementing a CMS. Plans to add more content!',
         image: '/projects/BrxBlog.png',
-        live_site_link: null,
-        github_link: null,
+        live_site_link: 'https://brx-blog-braxton-jones.vercel.app/',
+        github_link: 'https://github.com/Braxton-Jones/brx-blog',
         tags: ['Next.js', 'Sanity.io'],
         status: {
             message: 'Live',
